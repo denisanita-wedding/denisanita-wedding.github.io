@@ -142,6 +142,7 @@
     line-height: 1.7;
     color: var(--brown-text);
     margin: 0 0 16px;
+    text-align: justify;
   }
 
   /* ====== Calendar ====== */
@@ -540,6 +541,7 @@
   @media (max-width: 600px) {
     section { padding: 60px 18px; }
     .hero-content { padding: 40px 18px; }
+    .hero-names { font-size: clamp(56px, 14vw, 96px); line-height: 1.15; }
     .invite-card { padding: 40px 24px; }
     .timing-row { grid-template-columns: 80px 1fr; gap: 18px; }
     .timing-time { font-size: 22px; }
@@ -558,7 +560,7 @@
   <div class="hero-img"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1 class="hero-names">Денис &amp; Анита</h1>
+    <h1 class="hero-names">Денис<br>&amp;<br>Анита</h1>
     <div class="hero-date">04 · 09 · 2026</div>
   </div>
 </section>
